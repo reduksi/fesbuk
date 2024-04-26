@@ -7,8 +7,7 @@ export default function navbar(){
         <img src={logo} className="img" width="150" alt="logo"/>
         
         <div className="right-nav">
-            <button className="nav-join">REGISTER</button>
-            <button className="nav-sign">SIGN IN</button>
+            <button className="nav-sign">SIGN OUT</button>
         </div>
     </div>
     )
