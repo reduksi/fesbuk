@@ -1,0 +1,55 @@
+.profile-nav{
+    margin-top:30px;
+}
+
+.profile-nav .user-heading {
+    background: #1e3872;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.profile-nav .user-heading.round .link-user  {
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+}
+
+.profile-nav .user-heading .link-user img {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+    font-size: 12px;
+}
+
+.profile-nav .list-group {
+    margin-top: 50px;
+}
+
+.profile-nav .list-group > a {
+    border-bottom: 1px solid #ebeae6;
+    margin-top: 0;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 0;
+    color: #807f89;
+    border-left: 5px solid #fff;
+    text-decoration: none;
+}
+
+.profile-nav .list-group > a:hover {
+    background: #f8f7f5 !important;
+    border: none;
+    border-left: 5px solid #1e3872;
+    color: #807f89 !important;
+}

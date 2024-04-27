@@ -1,0 +1,38 @@
+.p-text-area, .p-text-area:focus {
+    border: none;
+    font-weight: 300;
+    box-shadow: none;
+    color: #807f89;
+    font-size: 16px;
+}
+
+.panel-footer {
+    background-color:#f6f5f8 ;
+    border: 1px solid #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.submit-post {
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    overflow: hidden;
+}
+
+.panel-footer button{
+    font-size: 13px;
+    margin-left: 8px;
+    padding: 5px 20px;
+    background-color: #1e3872;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.post{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: solid 3px #1e3872;
+}

@@ -1,0 +1,22 @@
+.comment-card{
+    padding: 7px 20px;
+    background-color: #fff;
+    border-bottom: solid 1px #1e3872;
+}
+
+.comment-card .comment-name{
+    font-size: 15px;
+    font-weight: 600;
+}
+.comment-card span{
+    font-weight: 200;
+    font-size: 14px;
+}
+.comment-card .delete-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.comment-card .delete-container img{
+    cursor: pointer;
+}

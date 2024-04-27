@@ -1,0 +1,47 @@
+.photo-card-container{
+    margin: 20px 0px;
+}
+.photo-card{
+    background-color: #fff;
+    padding: 10px;
+}
+.photo-card-image .image{
+    width: 100%;
+}
+.photo-card .user-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.photo-card .comment-button{
+    cursor: pointer;
+    text-decoration: none;
+    color: #807f89;
+    text-align: center;
+}
+
+.user-profile .name{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile .name span{
+    font-weight: 600;
+    display: flex;
+}
+.user-profile .name .email{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.photo-body{
+    font-size: 14px;
+}

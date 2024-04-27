@@ -1,6 +1,5 @@
 .userCard {
   position: relative;
-  margin: 10px;
   width: 100%;
   color: #1e3872;
   text-align: center;
@@ -39,7 +38,8 @@
   padding: 110px 25px 25px;
   margin-top: -100px;
   display: inline-block;
-  border-radius: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .userCard h3,

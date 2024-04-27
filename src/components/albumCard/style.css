@@ -1,0 +1,44 @@
+.album-card{
+    background-color: #fff;
+    margin: 20px 5px;
+    padding: 20px;
+    border-left: solid 4px #1e3872;
+}
+.album-card .user-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.album-card .comment-button{
+    cursor: pointer;
+    text-decoration: none;
+    color: #807f89;
+    text-align: center;
+}
+
+.user-profile .name{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile .name span{
+    font-weight: 600;
+    display: flex;
+}
+.user-profile .name .email{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.album-body{
+    margin-top: 10px;
+    padding: 0 10px;
+}

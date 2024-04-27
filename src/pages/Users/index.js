@@ -24,8 +24,8 @@ export default function Users(){
     <div className="user-list">
         <Row> 
             {users.map((user, i) => 
-                <Col xs={4}>
-                    <UserCard key={i} data={user}/>
+                <Col xs={4} key={i}>
+                    <UserCard data={user}/>
                 </Col>)}
         </Row>
     </div>
